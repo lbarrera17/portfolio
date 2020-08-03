@@ -1,0 +1,97 @@
+body{
+  font-size: 18pt;
+  font-family:Times;
+}
+
+h1{
+  text-transform:lowercase;
+  color:rgb(53, 82, 236);
+}
+
+p{
+  font-family: times;
+  font-size: 14pt ;
+}
+
+.header{
+  display:flex;
+  margin-left:20px;
+  height:90px;
+}
+
+
+nav {
+  font-size: 15px;
+  margin: 0px;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color:rgb(53, 82, 236);
+  border-bottom: solid rgb(147, 223, 214) 7px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.aboutPage{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.introduction{
+  width: 37%;
+  padding-left: 10%;
+  padding: 3%;
+  margin-top: 0;
+}
+.collage{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.collage img{
+  width: 650px;
+  padding:10px;
+}
+
+
+.visualPage{
+  display:grid;
+  justify-content:flex-start;
+}
+
+.images{
+  display:grid;
+  flex-direction: column;
+  flex-flow:wrap;
+  align-items: center;
+  justify-content: flex-start;
+  width:70%;
+}
+
+.images img{
+  width:1000px;
+  padding:15px;
+}
